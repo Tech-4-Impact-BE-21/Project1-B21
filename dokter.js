@@ -40,7 +40,7 @@ const getSearchDokter = async (URL) => {
   
     dokter.forEach((item, index) => {
       let htmlList = 
-      `<div class="card m-5 mb-3 listDokter shadow p-4 mb-6 bg-body rounded" style="max-width: 540px;">
+      `<div class="card mt -1 m-5 mb-3 listDokter shadow p-4 mb-6 bg-body rounded" style="max-width: 540px;">
             <div class="row g-0">
             <div class="col-md-4">
                 <img src="${item.avatar}" class="img-fluid rounded-start" alt="...">

@@ -24,6 +24,9 @@
             <div class="collapse navbar-collapse Kumenu" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
+                  <a class="nav-link active text-light listMenu" id="prcb" aria-current="page" href="#dataPasien">Data Pasien</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link active text-light listMenu" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
@@ -34,20 +37,21 @@
         </nav>
       </header>
 
-      <!--Judul-->
-      <!-- <div class="d-flex">
-        <div class="imgJudul">
-            <img src="./asset/Human profile_Isometric 1.png" width="300" height="auto" alt="">
+      <div class="container mt-3">
+        <div class="row align-items-center justify-content-between mb-3">
+          <div class="col-4 ms-5">
+            <img src="./asset/Human profile_Isometric 1.png" alt="" width="200">
+          </div>
+  
+          <div class="col-5 ms-4" >
+            <h1>Form Daftar Pasien</h1>
+          </div>
         </div>
-        <div class="judulAtas">
-            <h1 class="textjudul">Form Daftar Pasien</h1>
         </div>
-      </div> -->
 
     <!--Content-->
-    <div class="container w-50 mt-5 shadow p-3 mb-5 bg-white rounded">
+    <div class="container w-80 mt-2 ">
       <div class="p-3">
-          <h1 class="mb-4 text-center">Form Data Pasien</h1>
             <form class="task-form" name="my-form" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
               <input type="hidden" name="no" id="no" value=""> 
               <label for="inputNL" class="form-label">Nama Lengkap</label>
@@ -66,16 +70,16 @@
       </div>
     </div>
     <!-- Table -->
-    <div class="container mt-3 shadow p-3 mb-5 bg-white rounded">
+    <div class="container mt-3 shadow p-3 mb-5 bg-white rounded" id="dataPasien">
       <div class="p-3">
         <table class="table" id="myTable">
           <thead style="background-color: #277BC0;">
-              <th scope="col">#</th>
-              <th scope="col">Nama Lengkap</th>
+              <th scope="col text-white-50">#</th>
+              <th scope="col text-white-50">Nama Lengkap</th>
               <th scope="col">Jenis Kelamin</th>
               <th scope="col">No HP</th>
               <th scope="col">Alamat</th>
-              <th scope="col">Aksi</th>
+              
           </thead>
           <tbody>
           </tbody>
@@ -94,11 +98,11 @@
     
         <div class="text-center p-3 text-white" style="background-color: rgba(255, 255, 255, 0.025);">
           © 2022 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BE</a>
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BE-21</a>
         </div>
     
         <!-- Right -->
-        <div class="mt-2">
+        <div class="mt-3 ms-3 ">
           <a href="" class="me-4 link-secondary">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
