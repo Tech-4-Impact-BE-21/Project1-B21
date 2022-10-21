@@ -30,3 +30,15 @@ h5, p {
     font-size: 20px;
 }
 
+footer{
+    background-color: #1B4C74;
+}
+
+span, h6{
+    color:white;
+}
+
+h2{
+    font-size: 20px;
+    color: #000;
+}
